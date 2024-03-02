@@ -208,9 +208,16 @@ body {
 
 }
 
+
+.globe-video{
+    margin: 0px;
+    padding: 0px 0px;
+    height: 52vh;
+  }
+
 video {
     position: relative;
-    left: 29%;
+    left: 31%;
     width: 90vw;
     height: 100vh;
     transform: translate(-50%, -50%);
