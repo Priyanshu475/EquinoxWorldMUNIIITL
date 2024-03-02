@@ -223,3 +223,12 @@ video {
     transform: translate(-50%, -50%);
     z-index: -1;
   }
+
+  .background-image-of-sg-message {
+    position: relative;
+    background-image: url('./Assets/logo-opacity-30.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    height: 120vh;
+} 
