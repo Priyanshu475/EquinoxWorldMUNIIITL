@@ -148,10 +148,6 @@ body {
     /* margin-left: 120px; */
 }
 
-.mun__hero-intro_content-mun{
-    /* padding-top: 7px; */
-}
-
 .mun__hero-intro_content-mun h1{
     font-family: Montserrat;
     color: #F4D394;
@@ -205,5 +201,4 @@ body {
     line-height: 24px;
     letter-spacing: 0.2em;
     text-align: center;
-
 }
