@@ -91,7 +91,7 @@ body {
 */
 
 .section__padding_hero {
- margin-top: 3rem ;
+  /* margin-top: 1rem ; */
 }
 .mun__hero{
     display: flex;
@@ -128,7 +128,7 @@ body {
     font-family: Montserrat;
     color: #FFFFFF;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 34px;
     letter-spacing: 0.2em;
     text-align: center;
@@ -169,6 +169,7 @@ body {
     padding-top:12px ;
 }
 .mun__hero-intro_content-law h3{
+    color: white;
     font-family: Montserrat;
     font-size: 20px;
     font-style: italic;
@@ -197,11 +198,21 @@ body {
 }
 
 .mun__hero-collab h3{
+    color: white;
     font-family: Montserrat;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 24px;
     letter-spacing: 0.2em;
     text-align: center;
 
 }
+
+video {
+    position: relative;
+    left: 30%;
+    width: 90vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
