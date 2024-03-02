@@ -81,7 +81,22 @@ body {
     letter-spacing: 0.2em;
     text-align: center;
     text-decoration: none;
-
+    
     margin-top: 50px;
     margin-right: 250px
 }
+
+.committes-heading{
+    font-size: 6em;
+    font-weight: 800;
+    letter-spacing: 15px; /* Adjust the value as needed */
+}
+
+.background-image-of-sg-message {
+    position: relative;
+    background-image: url('../Assets/logo-opacity-30.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    height: 120vh;
+} 
