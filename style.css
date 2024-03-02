@@ -205,3 +205,12 @@ body {
     text-align: center;
 
 }
+
+video {
+    position: relative;
+    left: 30%;
+    width: 90vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
