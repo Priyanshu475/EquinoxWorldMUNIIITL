@@ -98,7 +98,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
+    width: 98vw;
 }
 .mun__hero-intro{
     /* border: 2px solid wheat; */
@@ -210,7 +210,7 @@ body {
 
 video {
     position: relative;
-    left: 30%;
+    left: 29%;
     width: 90vw;
     height: 100vh;
     transform: translate(-50%, -50%);
