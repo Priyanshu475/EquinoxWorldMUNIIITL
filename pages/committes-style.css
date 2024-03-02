@@ -130,7 +130,7 @@ body {
 .committees-details {
     display: flex;
     align-items: center; /* Align items vertically centered */
-    height: 35vh;
+    height: 43vh;
 }
 
 .committees-details-img img {
