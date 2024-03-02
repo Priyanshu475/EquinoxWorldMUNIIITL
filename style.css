@@ -90,12 +90,15 @@ body {
  Media queries to be added
 */
 
+.section__padding_hero {
+ margin-top: 3rem ;
+}
 .mun__hero{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
+    width: 98vw;
 }
 .mun__hero-intro{
     /* border: 2px solid wheat; */
@@ -203,13 +206,4 @@ body {
     letter-spacing: 0.2em;
     text-align: center;
 
-}
-
-video {
-    position: relative;
-    left: 30%;
-    width: 90vw;
-    height: 100vh;
-    transform: translate(-50%, -50%);
-    z-index: -1;
 }
