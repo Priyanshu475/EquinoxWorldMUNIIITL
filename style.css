@@ -39,6 +39,7 @@ body {
     margin-top: 10px;
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
 
 /* .mun__navbar-links_items{
@@ -226,3 +227,98 @@ video {
     background-position: center; 
     height: 120vh;
 } 
+
+.mun__footer{
+    height: 18vw;
+    background: #594E3A;
+    padding: 2rem 6rem;
+}
+.mun__footer-contactinfo{
+    padding-top: 2rem;
+}
+.mun__footer-contactinfo h3{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+}
+
+.mun__footer_content {
+    text-align: right;
+    padding-top: 1.5rem;
+    margin-left: 50%;
+}
+
+.mun__footer-contactdetails{
+    width: 100%;
+}
+
+.mun__footer_content-details h1{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+}
+
+.mun__footer_content-details span{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    color: #F4D394;
+}
+
+.mun__footer_content-mun h1{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0.2em;
+    color: #F4D394;
+}
+
+.mun__footer_content-law h3{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+}
+
+.mun__footer-contactdetails{
+    padding-top: 1rem;
+}
+
+.mun__footer-contactdetails h3{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+
+    padding-top: 0.5rem;
+}
+.mun__footer-iiitl {
+    width: 100%;
+    padding-top: 1rem ;
+}
+.mun__footer-iiitl h1{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+}
+
+.mun__footer-iiitl span{
+    color: #F4D394;
+}
