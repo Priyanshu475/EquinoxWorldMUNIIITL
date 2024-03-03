@@ -226,6 +226,70 @@ video {
     transform: translate(-50%, -50%);
     z-index: -1;
   }
+     /* Gallery section CSS starts */
+      @keyframes fade{
+        from{
+          opacity:0.4;
+        }
+        to{
+          opacity:1;
+        }
+      }
+
+      #slider{
+        padding-top: 2rem;
+        margin:0 auto;
+        width:80%;
+        overflow:hidden;
+      }
+      
+      .slides{
+        overflow:hidden;
+        animation-name:fade;
+        animation-duration:1s;
+        display:none;
+      }
+    
+      .slides.active{
+        display: block;
+      }
+      
+      img{
+        width:100%;
+        border-radius: 30px;
+      }
+      
+      #dot{
+        margin:0 auto;
+        text-align:center;
+      }
+      .dot{
+        display:inline-block;
+        border-radius:50%;
+        background:#d3d3d3;
+        padding:8px;
+        margin:10px 5px;
+      }
+      
+      .active{
+        background:#F4D394;
+      }
+      
+      @media (max-width:567px){
+        #slider{
+          width:100%;
+      
+        }
+      }
+      
+      #heading{
+        display:block;
+        text-align:center;
+        font-size:2em;
+        margin:10px 0px;
+      
+      }
+
 
   .background-image-of-sg-message {
     position: relative;
@@ -234,6 +298,8 @@ video {
     background-size: contain; 
     background-position: center; 
     height: 120vh;
+
+    padding-top: 6rem;
 } 
 
 .message-from-sg {
