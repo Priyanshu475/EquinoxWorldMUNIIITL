@@ -86,17 +86,67 @@ body {
     margin-right: 250px
 }
 
-.committes-heading{
+.committes-heading {
     font-size: 6em;
     font-weight: 800;
-    letter-spacing: 15px; /* Adjust the value as needed */
+    letter-spacing: 15px;
 }
 
 .background-image-of-sg-message {
     position: relative;
     background-image: url('../Assets/logo-opacity-30.png');
     background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: center; 
+    background-size: contain;
+    background-position: center;
     height: 120vh;
-} 
+}
+
+.committees-row {
+    display: flex;
+    height: 50vh;
+    justify-content: center; /* Center the columns horizontally */
+}
+
+.committees-col-1,
+.committees-col-2,
+.committees-col-3 {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.committees-col-1 img,
+.committees-col-2 img,
+.committees-col-3 img {
+    width: 23vw;
+    height: 25vh;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.committees-details {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    height: 43vh;
+}
+
+.committees-details-img img {
+    width: 22vw;
+    height: 45vh; /* Maintain aspect ratio */
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.committees-details-text {
+    flex: 1; /* Allow the text to take up remaining space */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.committes-details-info{
+    margin-bottom: 40px;
+}

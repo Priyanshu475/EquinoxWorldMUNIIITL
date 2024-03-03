@@ -127,7 +127,7 @@ body {
 .mun__hero-intro_content-details h1{
     font-family: Montserrat;
     color: #FFFFFF;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 800;
     line-height: 34px;
     letter-spacing: 0.2em;
@@ -202,3 +202,27 @@ body {
     letter-spacing: 0.2em;
     text-align: center;
 }
+
+.globe-video{
+    margin: 0px;
+    padding: 0px 0px;
+    height: 52vh;
+  }
+
+video {
+    position: relative;
+    left: 31%;
+    width: 90vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  .background-image-of-sg-message {
+    position: relative;
+    background-image: url('./Assets/logo-opacity-30.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    height: 120vh;
+} 
