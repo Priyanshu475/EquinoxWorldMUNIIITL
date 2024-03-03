@@ -108,6 +108,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 98vw;
+    height: 130vh;
 }
 .mun__hero-intro{
     /* border: 2px solid wheat; */
@@ -198,8 +199,7 @@ body {
 }
 
 .mun__hero-collab{
-    padding-top: 2rem;
-
+    margin-top: -12em;
 }
 
 .mun__hero-collab h3{
@@ -212,11 +212,6 @@ body {
     text-align: center;
 }
 
-.globe-video{
-    margin: 0px;
-    padding: 0px 0px;
-    height: 52vh;
-  }
 
 video {
     position: relative;
