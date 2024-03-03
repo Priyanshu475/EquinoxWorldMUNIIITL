@@ -335,8 +335,23 @@ video {
     background: #594E3A;
     padding: 2rem 6rem;
 }
+
+.mun__footer_contacts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .mun__footer-contactinfo{
-    padding-top: 2rem;
+    padding-top: 1rem;
+}
+
+.mun__footer-details{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 1rem;
 }
 .mun__footer-contactinfo h3{
     font-family: Montserrat;
@@ -348,7 +363,6 @@ video {
 
 .mun__footer_content {
     text-align: right;
-    padding-top: 1.5rem;
     margin-left: 50%;
 }
 
@@ -372,6 +386,8 @@ video {
     line-height: 15px;
     letter-spacing: 0.2em;
     color: #F4D394;
+
+    padding-left: 45px;
 }
 
 .mun__footer_content-mun h1{
@@ -394,7 +410,7 @@ video {
 }
 
 .mun__footer-contactdetails{
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .mun__footer-contactdetails h3{
@@ -405,11 +421,16 @@ video {
     line-height: 20px;
     letter-spacing: 0.2em;
 
-    padding-top: 0.2rem;
+    padding-top: 1rem;
+}
+
+.social_icons{
+  padding-top: 0.3rem;
 }
 .mun__footer-iiitl {
     width: 100%;
-    padding-top: 0.6rem ;
+    padding-top: 3rem ;
+
 }
 .mun__footer-iiitl h1{
     font-family: Montserrat;
