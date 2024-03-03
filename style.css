@@ -72,6 +72,10 @@ body {
     cursor: pointer;
 }
 
+.mun__navbar-links_container a:hover {
+    color: #F4D394;
+}
+
 .mun__navbar-register a{
     font-family: Montserrat;
     color: #F4D394;
@@ -84,6 +88,10 @@ body {
 
     margin-top: 50px;
     margin-right: 250px
+}
+
+.mun__navbar-register a:hover {
+    color: #FFFFFF; /* Change text color to white on hover */
 }
 
 /* 

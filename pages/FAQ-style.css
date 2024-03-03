@@ -72,6 +72,10 @@ body {
     cursor: pointer;
 }
 
+.mun__navbar-links_container a:hover {
+    color: #F4D394;
+}
+
 .mun__navbar-register a{
     font-family: Montserrat;
     color: #F4D394;
@@ -81,9 +85,13 @@ body {
     letter-spacing: 0.2em;
     text-align: center;
     text-decoration: none;
-    
+
     margin-top: 50px;
     margin-right: 250px
+}
+
+.mun__navbar-register a:hover {
+    color: #FFFFFF; /* Change text color to white on hover */
 }
 
 .committes-heading {
@@ -105,7 +113,7 @@ body {
     padding: 4rem;
     width: 48rem;
   }
-  
+
   h3 {
     font-size: 1.75rem;
     color: white;
