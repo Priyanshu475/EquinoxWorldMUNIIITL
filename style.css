@@ -237,6 +237,9 @@ video {
       }
 
       #slider{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-top: 2rem;
         margin:0 auto;
         width:80%;
@@ -247,6 +250,7 @@ video {
         overflow:hidden;
         animation-name:fade;
         animation-duration:1s;
+        width: 60%;
         display:none;
       }
     
