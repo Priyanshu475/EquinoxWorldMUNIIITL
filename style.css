@@ -14,7 +14,7 @@
 body {
     background-color: black;
     color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .mun__navbar{
@@ -160,7 +160,7 @@ body {
 .mun__hero-intro_content-mun h1{
     font-family: Montserrat;
     color: #F4D394;
-    font-size: 84px;
+    font-size: 90px;
     font-weight: 900;
     line-height: 102px;
     letter-spacing: 0.2em;
@@ -176,7 +176,7 @@ body {
 .mun__hero-intro_content-law h3{
     color: white;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 24px;
     font-style: italic;
     font-weight: 800;
     line-height: 24px;
@@ -235,6 +235,36 @@ video {
     background-position: center; 
     height: 120vh;
 } 
+
+.message-from-sg {
+    margin: 1rem 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.text-message-from-sg{
+    flex: 1;
+    margin-top: 8rem;
+    /* border: 2px solid wheat; */
+    height: 40vw;
+}
+
+.text-message-from-sg p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.message-from-sg-image img{
+    /* width: 552.62px; */
+    height: 800px;
+    /* transform: rotate(-31deg); */
+}
+
+
 
 .mun__footer{
     height: 18vw;

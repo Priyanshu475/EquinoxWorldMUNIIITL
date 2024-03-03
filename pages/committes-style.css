@@ -139,11 +139,13 @@ body {
     display: flex;
     align-items: center; /* Align items vertically centered */
     height: 43vh;
+
+    margin: 1rem 4rem;
 }
 
 .committees-details-img img {
     width: 22vw;
-    height: 45vh; /* Maintain aspect ratio */
+    /* height: 45vh; Maintain aspect ratio */
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
