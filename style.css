@@ -264,8 +264,6 @@ video {
     /* transform: rotate(-31deg); */
 }
 
-
-
 .mun__footer{
     height: 18vw;
     background: #594E3A;
@@ -341,11 +339,11 @@ video {
     line-height: 20px;
     letter-spacing: 0.2em;
 
-    padding-top: 0.5rem;
+    padding-top: 0.2rem;
 }
 .mun__footer-iiitl {
     width: 100%;
-    padding-top: 1rem ;
+    padding-top: 0.6rem ;
 }
 .mun__footer-iiitl h1{
     font-family: Montserrat;
