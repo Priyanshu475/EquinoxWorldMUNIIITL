@@ -2,8 +2,8 @@ const toggleBtn = document.querySelector('.mun__navbar-togglebtn')
 const toggleBtnIcon = document.querySelector('mun__navbar-togglebtn i')
 const dropDownMenu = document.querySelector('.mun__navbar-dropdown')
 
-toggleBtnonclick = function() {
-    dropDownMenu.classlist.toggle('open')
+toggleBtn.onclick = function() {
+    dropDownMenu.classList.toggle('open')
     const isOpen = dropDownMenu.classlist.contains('open')
 
     toggleBtnIcon.classList = isOpen
