@@ -1,3 +1,16 @@
+const toggleBtn = document.querySelector('.mun__navbar-togglebtn')
+const toggleBtnIcon = document.querySelector('mun__navbar-togglebtn i')
+const dropDownMenu = document.querySelector('.mun__navbar-dropdown')
+
+toggleBtnonclick = function() {
+    dropDownMenu.classlist.toggle('open')
+    const isOpen = dropDownMenu.classlist.contains('open')
+
+    toggleBtnIcon.classList = isOpen
+    ? 'fa-solid fa-xmark'
+    : 'fa-solid fa-bars'
+}
+
 var index = 0;
 var slides = document.querySelectorAll(".slides");
 var dots = document.querySelectorAll(".dot");
