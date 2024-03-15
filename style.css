@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monserrat';
+    /* font-family: 'Monserrat'; */
 }
 
 body{
@@ -64,11 +65,12 @@ header{
     text-decoration: none;
     font-family: Montserrat;
     color: #F4D394;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 900;
     line-height: 1rem;
     letter-spacing: 0.2em;
     text-align: center;
+    padding-bottom: 0.5rem;
 }
 
 .mun__navbar #register:hover{
@@ -176,7 +178,7 @@ header{
 }
 
 .mun__hero-title h1{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     color: #F4D394;
     font-size: 6rem;
     font-weight: 900;
@@ -745,27 +747,29 @@ video {
 }
 
 .message-from-sg {
-    margin: 1rem;
-    margin-left: 9rem;
-    margin-right: 5rem;
-    display: flex;
+    margin: 0 auto;
+    /* margin-left: 15rem;
+    margin-right: 15rem; */
+    width: 50vw;
+    /* display: flex;
     justify-content: center;
+    align-items: center; */
 }
 
 .text-message-from-sg{
     flex: 1;
     margin-top: 8rem;
     /* border: 2px solid wheat; */
-    height: 40vw;
+    height: 60vh;
 }
 
 .text-message-from-sg p{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5rem;
     letter-spacing: 0.1em;
-    text-align: left;
+    text-align: center;
 }
 
 .message-from-sg-image img{
@@ -777,6 +781,7 @@ video {
 @media(max-width:1630px ){
     .message-from-sg{
         margin-right: 1rem;
+        margin: 0 auto;
     }
     .text-message-from-sg p{
         font-size: 0.95rem;
@@ -787,6 +792,7 @@ video {
 @media(max-width:1440px ){
     .message-from-sg{
         margin-right: 0.7rem;
+        margin: 0 auto;
     }
     .message-from-sg img{
         height: 720px;
@@ -801,6 +807,7 @@ video {
 @media(max-width:1280px ){
     .message-from-sg{
         margin-right: 0.7rem;
+        margin: 0 auto;
     }
     .message-from-sg img{
         padding-top: 3rem;
@@ -820,6 +827,7 @@ video {
     
     .message-from-sg{
         margin-right: 0.7rem;
+        margin: 0 auto;
     }
     .message-from-sg img{
         padding-top: 3rem;
@@ -835,6 +843,7 @@ video {
 @media(max-width:1180px ){
     .message-from-sg{
         margin-right: 0.7rem;
+        margin: 0 auto;
     }
     .message-from-sg img{
         padding-top: 3.3rem;
@@ -850,6 +859,7 @@ video {
 @media(max-width:1180px ){
     .message-from-sg{
         margin-right: 0.7rem;
+        margin: 0 auto;
     }
     .message-from-sg img{
         padding-top: 3.3rem;
@@ -865,6 +875,7 @@ video {
 @media(max-width:1050px ){
     .message-from-sg{
         margin-right: 0.4rem;
+        margin: 0 auto;
     }
     .message-from-sg img{
         margin-top: 3rem;
@@ -881,9 +892,11 @@ video {
     .message-from-sg{
         align-items: center;
         justify-content: center;
-        margin-right: 7rem;
+        /* margin-right: 7rem; */
         flex-direction: column;
         text-align: center;
+        margin: 0 auto;
+        width: 60vw;
     }
     .message-from-sg img{
         display: none;
@@ -907,9 +920,10 @@ video {
     .message-from-sg{
         align-items: center;
         justify-content: center;
-        margin-right: 7rem;
+        /* margin-right: 7rem; */
         flex-direction: column;
         text-align: center;
+        margin: 0 auto;
     }
     .message-from-sg img{
         display: none;
@@ -932,6 +946,7 @@ video {
         margin:4rem 3rem;
         flex-direction: column;
         text-align: center;
+        margin: 0 auto;
     }
     .message-from-sg img{
         display: none;
@@ -955,9 +970,11 @@ video {
     .message-from-sg{
         align-items: center;
         justify-content: center;
-        margin:0rem 1.5rem;
+        /* margin:0rem 1.5rem; */
         flex-direction: column;
         text-align: center;
+        width: 80vw;
+        margin: 0 auto;
     }
     .message-from-sg img{
         display: none;
@@ -1028,6 +1045,10 @@ video {
 
 .social_icons{
   padding-top: 0.3rem;
+}
+
+.social_icons a{
+    padding-right: 1.2rem;
 }
 
 .social_icons img{
@@ -1206,8 +1227,8 @@ video {
 }
 @media(max-width:440px){
     .mun__footer{
-        height: 27vh;
-        margin-top: -6rem;
+        height: 26vh;
+        margin-top: -15rem;
         padding: 1rem 2rem;
         padding-right: 1.2rem;
     }

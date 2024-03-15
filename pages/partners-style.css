@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 
 *{
@@ -17,81 +17,125 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header{
+    position: relative;
+    padding: 1rem 2rem;
+}
+
 .mun__navbar{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 2rem 6rem; */
+
+}
+
+.mun__navbar-logo img{
+    width: 6.25rem;
+    height: auto;
 }
 
 .mun__navbar-links{
-    flex: 1;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.mun__navbar-links_logo{
-    margin-right: 2rem;
+    gap: 2rem;
 }
 
-.mun__navbar-links_logo img{
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 100px;
-    height: 100px;
+.mun__navbar-links li{
+    list-style: none;
 }
 
-/* .mun__navbar-links_items{
-    padding-left: 300px;
-} */
-.mun__navbar-links_container{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-}
-
-.mun__navbar-register{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.mun__navbar-links_container a{
+.mun__navbar-links a{
+    text-decoration: none;
+    color: #fff;
     font-family: Montserrat;
-    color: #FFFFFF;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 600;
-    line-height: 17px;
-    letter-spacing: 0.2em;
+    line-height: 1rem;
+    letter-spacing: 0.2rem;
     text-align: center;
-    text-decoration: none;
-    text-transform: capitalize;
-    
-
-    margin: 0 1rem;
-    cursor: pointer;
 }
-
-.mun__navbar-links_container a:hover {
+.mun__navbar-links a:hover{
     color: #F4D394;
 }
 
-.mun__navbar-register a{
+.mun__navbar-togglebtn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.mun__navbar #register{
+    text-decoration: none;
     font-family: Montserrat;
     color: #F4D394;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 900;
-    line-height: 17px;
+    line-height: 1rem;
     letter-spacing: 0.2em;
     text-align: center;
-    text-decoration: none;
-
-    margin-top: 50px;
-    margin-right: 250px
 }
 
-.mun__navbar-register a:hover {
-    color: #FFFFFF; /* Change text color to white on hover */
+.mun__navbar #register:hover{
+    color: #fff;
+}
+
+.mun__navbar-dropdown{
+    display: none;
+    position: absolute;
+    right: 0.8rem;
+    height: 0;
+    /* top: 4rem; */
+    /* width: 300px; */
+    overflow: hidden;
+    /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+}
+
+.mun__navbar-dropdown.open{
+    height: 17vh;
+}
+
+.mun__navbar-dropdown li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mun__navbar-dropdown a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.mun__navbar-dropdown a:hover{
+    color: #F4D394;
+}
+
+/*  Media Queries of the Navigation Bar */
+
+@media (max-width:1175px) {
+    .mun__navbar-links{
+        display: none;
+    }
+
+    .mun__navbar-togglebtn{
+        display: block;
+    }
+
+    .mun__navbar-dropdown{
+        display: block;
+        width: 95vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #594E3A;
+        border-radius: 20px;
+    }
 }
 
 .committes-heading {

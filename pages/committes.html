@@ -5,50 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../Assets/favicon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./committes-style.css">
     <title>Equninox World MUN - IIIT Lucknow</title>
 </head>
 
 <body>
-    <nav>
+    <header>
         <div class="mun__navbar">
-            <div class="mun__navbar-links">
-                <div class="mun__navbar-links_logo">
-                    <img src="../Assets/logo.png" alt="logo">
-                </div>
-                <div class="mun__navbar-links_items">
-                    <div class="mun__navbar-links_container">
-                        <p><a href="../index.html">HOME</a></p>
-                        <p><a href="./committes.html">COMMITTEES</a></p>
-                        <p><a href="./secretariat.html">SECRETARIAT</a></p>
-                        <p><a href="./partners.html">PARTNERS</a></p>
-                        <p><a href="./FAQ.html">FAQ</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="mun__navbar-register">
-                <p><a href="#">REGISTER</a></p>
-            </div>
+          <div class="mun__navbar-logo">
+            <img src="../Assets/logo.png" alt="logo" />
+          </div>
+          <ul class="mun__navbar-links">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="committes.html">COMMITTEES</a></li>
+            <li><a href="secretariat.html">SECRETARIAT</a></li>
+            <li><a href="partners.html">PARTNERS</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+          </ul>
+          <a href="#" id="register">REGISTER</a>
+          <div class="mun__navbar-togglebtn">
+            <i
+              id="navbar-bars"
+              class="fa-solid fa-bars"
+              style="color: #f4d394"
+            ></i>
+          </div>
         </div>
-    </nav>
+        <div class="mun__navbar-dropdown">
+          <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="pages/committes.html">COMMITTEES</a></li>
+          <li><a href="pages/secretariat.html">SECRETARIAT</a></li>
+          <li><a href="pages/partners.html">PARTNERS</a></li>
+          <li><a href="pages/FAQ.html">FAQ</a></li>
+          </ul>
+        </div>
+      </header>
     <span class="committes-heading">
         <center>COMMITTEES</center>
     </span>
-    <div class="background-image-of-sg-message">
-        <div class="committees-list">
-            <div class="committees-row">
-                <div class="committees-col-1">
-                    <img src="../Assets/international_press.png" alt="Image 1">
-                </div>
-                <div class="committees-col-2">
-                    <img src="../Assets/international_press.png" alt="Image 2">
-                </div>
-                <div class="committees-col-3">
-                    <img src="../Assets/international_press.png" alt="Image 3">
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- for the time being br use-->
     <br>
     <br>
@@ -60,7 +62,7 @@
         <div class="committees-details-text">
             <div class="committes-details-info">
                 <h1 style="color: #F4D394;">INTERNATIONAL PRESS</h1>
-                <p style="font-size: large;">The International Press consists of the role of joumalists, reporters, and
+                <p>The International Press consists of the role of joumalists, reporters, and
                     photographers. It is responsible for gathering information, conducting interviews, and producing
                     articles or reports on the proceedings</p>
             </div>
@@ -69,15 +71,13 @@
                 <p>VICE CHAIR : ABHINESH KAUSHIK</p>
                 <p>AGENDA : N/A</p>
             </div>
-            
         </div>
-
     </div>
     <div class="committees-details">
-        <div class="committees-details-text" style="text-align: right;">
+        <div class="committees-details-text">
             <div class="committes-details-info">
                 <h1 style="color: #F4D394;">UN SECURITY COUNCIL</h1>
-                <p style="font-size: large;">The United Nations Commission on the Status of Women (UNCSW) is the global intergovernmental body dedicated to the promotion of gender equality and the empowerment of women. The CSW is instrumental in promoting women’s rights, documenting the reality of women’s lives throughout the world, and shaping global standards on gender equality.</p>
+                <p>The United Nations Commission on the Status of Women (UNCSW) is the global intergovernmental body dedicated to the promotion of gender equality and the empowerment of women. The CSW is instrumental in promoting women’s rights, documenting the reality of women’s lives throughout the world, and shaping global standards on gender equality.</p>
             </div>
             <div class="committee-position">
                 <p>CHAIRMAN : ABHINESH KAUSHIK</p>
@@ -85,10 +85,11 @@
                 <p>AGENDA : N/A</p>
             </div>
         </div>
-        <div class="committees-details-img">
+        <div class="committees-details-img2">
             <img src="../Assets/unsc.png" alt="Image 1">
         </div>
     </div>
+    <script src="../script.js"></script>
     
 </body>
 
