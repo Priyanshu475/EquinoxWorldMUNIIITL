@@ -68,12 +68,12 @@ header{
     text-decoration: none;
     font-family: Montserrat;
     color: #F4D394;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 900;
     line-height: 1rem;
     letter-spacing: 0.2em;
     text-align: center;
-    padding-bottom: 0.6rem;
+    padding-bottom: 0.5rem;
 }
 
 .mun__navbar #register:hover{
