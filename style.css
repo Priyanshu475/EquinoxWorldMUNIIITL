@@ -1294,7 +1294,14 @@ video {
     display: flex;
     align-items: center;
     padding: 15px;
+    perspective: 200px;
 }
 .slides1 img{
     width: 100%;
+    transition: transform 0.4s;
 }
+
+.slides1 img:hover{
+    transform: translateZ(20px);
+}
+
