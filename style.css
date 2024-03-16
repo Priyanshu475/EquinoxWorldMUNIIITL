@@ -1170,8 +1170,8 @@ video {
 
 .slider-track{
     display: flex;
-    width: calc(22rem *10);
-    animation: scroll 40s linear infinite;
+    width: calc(22rem *35);
+    animation: scroll 30s linear infinite;
 }
 
 @keyframes scroll {
