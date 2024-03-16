@@ -646,7 +646,7 @@ video {
     margin: 0 auto;
     /* margin-left: 15rem;
     margin-right: 15rem; */
-    width: 35vw;
+    width: 40vw;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -654,17 +654,15 @@ video {
 
 .text-message-from-sg{
     flex: 1;
-    margin-top: 8rem;
+    margin-top: 3rem;
     /* border: 2px solid wheat; */
-    height: 60vh;
+    height: auto;
 }
 
 .text-message-from-sg p{
     font-family: 'Montserrat';
     font-size: 1rem;
     font-weight: 500;
-    line-height: 1.5rem;
-    letter-spacing: 0.1em;
     text-align: center;
 }
 
