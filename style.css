@@ -890,7 +890,11 @@ video {
 }
 
 /* Styling of the Footer section */
-
+.footer-border{
+    width: 90%;
+    height: 8px;
+    background-color: #F4D394;
+}
 .mun__footer{
     height: 36vh;
     /* background: #594E3A; */
