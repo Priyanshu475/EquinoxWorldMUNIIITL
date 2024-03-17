@@ -145,10 +145,11 @@ header{
     }
 }
 
-.committes-heading {
-    font-size: 6em;
+.committes-heading{
+    font-size: 5em;
     font-weight: 800;
     letter-spacing: 1rem;
+    margin-top: 2.5rem;
 }
 
 .background-image-of-sg-message {
@@ -193,6 +194,10 @@ header{
     width: 65vw;
 
     margin: 1rem auto;
+}
+
+.school, .university{
+    font-size: 2rem;
 }
 
 .committees-details-img img {
@@ -300,6 +305,10 @@ header{
         font-weight: 800;
         letter-spacing: 0.6rem;
         text-align: center;
+    }
+
+    .school, .university{
+        font-size: 1.3rem;
     }
     .committees-details-img img {
         width: 14rem;

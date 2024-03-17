@@ -857,11 +857,17 @@ video {
 }
 @media(max-width:450px ){
     .background-image-of-sg-message{
-        padding-top: 3.6rem;
+        padding-top: 200px;
         height: 115vh;
     }
     .background-image-of-sg-message span{
         font-size: 1.6rem;
+    }
+    span#SS{
+        font-size: 0.55rem;
+    }
+    center#invitaion{
+        /* margin-top: -100px; */
     }
     .message-from-sg{
         align-items: center;
@@ -1199,6 +1205,19 @@ video {
 
 .slides1 img:hover{
     transform: translateZ(20px);
+}
 
+@media(max-width:450px){
+    .slides1{
+        width: 250px;
+        height: 55px;
+    }
+    center#gallery-text{
+        margin-top: -650px;
+    }
+}
+
+center#gallery-text{
+    margin-top: -300px;
 }
 
