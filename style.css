@@ -646,7 +646,7 @@ video {
     margin: 0 auto;
     /* margin-left: 15rem;
     margin-right: 15rem; */
-    width: 35vw;
+    width: 40vw;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -654,17 +654,15 @@ video {
 
 .text-message-from-sg{
     flex: 1;
-    margin-top: 8rem;
+    margin-top: 3rem;
     /* border: 2px solid wheat; */
-    height: 60vh;
+    height: auto;
 }
 
 .text-message-from-sg p{
     font-family: 'Montserrat';
     font-size: 1rem;
     font-weight: 500;
-    line-height: 1.5rem;
-    letter-spacing: 0.1em;
     text-align: center;
 }
 
@@ -883,7 +881,7 @@ video {
     }
     
     .text-message-from-sg p{
-        font-size: 0.55rem;
+        font-size: 0.7rem;
         line-height: 0.69rem;
         letter-spacing: 0.1rem;
         text-align: center;
@@ -895,7 +893,7 @@ video {
 
 .mun__footer{
     height: 36vh;
-    background: #594E3A;
+    /* background: #594E3A; */
     padding: 2rem 8.8rem;
 }
 
@@ -1178,8 +1176,8 @@ video {
 
 .slider-track{
     display: flex;
-    width: calc(22rem *10);
-    animation: scroll 40s linear infinite;
+    width: calc(22rem *35);
+    animation: scroll 30s linear infinite;
 }
 
 @keyframes scroll {
