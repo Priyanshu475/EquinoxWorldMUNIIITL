@@ -139,6 +139,21 @@ header{
   }
 }
 
+@media (max-width:460px){
+  .mun__navbar-logo img{
+    width: 5rem;
+    height: auto;
+  }
+  header{
+    position: relative;
+    padding: 1rem 1rem;
+  }
+  #register{
+    padding-right: 3rem;
+    padding-top: 0.6rem;
+  }
+}
+
 .committes-heading {
     font-size: 6em;
     font-weight: 800;
@@ -157,6 +172,7 @@ header{
     margin: 0 auto;
     padding: 4rem;
     width: 48rem;
+    max-width: 100%;
   }
 
   h3 {
@@ -248,4 +264,16 @@ header{
   html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+  }
+
+  @media (max-width:480px){
+    .committes-heading{
+      font-size: 4rem;
+      text-align: center;
+    }
+
+    .accordion-item a, .content p{
+      font-size: 0.8rem;
+      font-weight: 200;
+    }
   }
