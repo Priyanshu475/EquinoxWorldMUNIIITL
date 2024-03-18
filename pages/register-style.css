@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #12015c;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+#title h1{
+  text-align: center;
+  color: white;
+  font-family: inherit;
+}
+
+.text-center {
+ text-align: center;
+ margin: 0.5em;
+}
+
+.container{
+  width: 820px;
+  height: 90%;
+  margin: 1% auto;
+  display: flex;
+  flex: 1 1 100%;
+  overflow: hidden;
+  align-items: stretch;
+	justify-content: space-between;
+  box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    width: 375px; 
+  }
+  .left {
+    height: 100%;
+  }
+}
+
+.left {
+  background-color: #1E88E5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://images.pexels.com/photos/2860807/pexels-photo-2860807.jpeg?crop=entropy&cs=srgb&dl=pexels-anni-roenkae-2860807.jpg&fit=crop&fm=jpg&h=1706&w=1280');
+  overflow: hidden;
+}
+
+.right {
+  position: relative;
+  background: #E91E63;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Form */
+form {
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+.form-set{
+  padding: 5px; 
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 1rem;
+    display: block;
+  }
+}
+
+.form-control {
+  width: 100%;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+#name-label,
+#email-label,
+#number-label,
+#drop-label,
+#radio-label,
+#checkbox-label,
+#textarea-label{
+  display: flex;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/*Comment*/
+textarea {
+  background: none;
+}
+
+.input-textarea {
+  margin-top: 6px;
+  width: 100%;
+  height: 105px;
+  border: 1px solid white;
+  border-radius: 5px;
+  resize: none;
+  transition: 0.3s;
+}
+
+.input-textarea:hover {
+  border: 2px solid white;
+}
+
+/*Button */
+button {
+  border: none;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background: white;
+}
