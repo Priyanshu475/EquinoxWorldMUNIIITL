@@ -27,7 +27,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .mun__navbar-logo img{
@@ -337,7 +336,7 @@ header{
 
     .committees-details{
         width: 75vw;
-        margin-top: 0rem;
+        margin-top: 3rem;
         flex-direction: column;
     }
 
