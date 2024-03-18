@@ -195,6 +195,15 @@ header{
     margin: 1rem auto;
 }
 
+.committees-details-r {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    height: 43vh;
+    width: 65vw;
+
+    margin: 1rem auto;
+}
+
 .school, .university{
     font-size: 2rem;
 }
@@ -338,6 +347,11 @@ header{
         width: 75vw;
         margin-top: 3rem;
         flex-direction: column;
+    }
+    .committees-details-r{
+        width: 75vw;
+        margin-top: 3rem;
+        flex-direction: column-reverse;
     }
 
     .committes-details-info h1{
