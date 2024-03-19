@@ -2,94 +2,188 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Assets/favicon.png" type="image/x-icon">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./register-style.css">
-    <title>Equninox World MUN - IIIT Lucknow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../Assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./register-style.css">
+  <title>Equninox World MUN - IIIT Lucknow</title>
 </head>
 
 <body>
-    <header>
-        <div class="mun__navbar">
-          <div class="mun__navbar-logo">
-            <img src="../Assets/logo.png" alt="logo" />
-          </div>
-          <ul class="mun__navbar-links">
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="committes.html">COMMITTEES</a></li>
-            <li><a href="secretariat.html">SECRETARIAT</a></li>
-            <li><a href="partners.html">PARTNERS</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-          </ul>
-          <a href="./register.html" id="register">REGISTER</a>
-          <div class="mun__navbar-togglebtn">
-            <i
-              id="navbar-bars"
-              class="fa-solid fa-bars"
-              style="color: #f4d394"
-            ></i>
-          </div>
-        </div>
-        <div class="mun__navbar-dropdown">
-          <ul>
-          <li><a href="../index.html">HOME</a></li>
-          <li><a href="committes.html">COMMITTEES</a></li>
-          <li><a href="secretariat.html">SECRETARIAT</a></li>
-          <li><a href="partners.html">PARTNERS</a></li>
-          <li><a href="FAQ.html">FAQ</a></li>
-          </ul>
-        </div>
-      </header>
-    <span class="committes-heading">
-        <center>REGISTER</center>
-    </span>
-
-    <div class="background-image-of-sg-message" style="padding: 20px;">
-      <div class="register-form" style="display: flex; flex-wrap: wrap; justify-content: center;">
-    
-        <!-- Instructions side -->
-        <div style="flex: 1; max-width: 50%; margin:50px;">
-          <h2 style="color: #f4d394;">Instructions:</h2>
-          <p style="color: white;">Please fill out the form below to register. Make sure to provide accurate information.</p>
-          <center><img src="../Assets/TeaParty.png" style="height: 200px; width: 200px; margin-top: 30px;"></center>
-        </div>
-      
-        <!-- Form side -->
-        <div style="flex: 1; max-width: 50%; margin: 50px;">
-          <form style="margin: 0 auto;">
-            <div style="margin-bottom: 15px;">
-              <label for="name" style="display: block; margin-bottom: 5px; color:#f4d394">Name:</label>
-              <input type="text" id="name" name="name" style="padding: 8px; width: 100%; box-sizing: border-box; background-color: transparent; color: white; font-weight: bolder;" placeholder="Enter your name" required>
-            </div>
-            <div style="margin-bottom: 15px;">
-              <label for="phone" style="display: block; margin-bottom: 5px;color: #f4d394;">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" style="padding: 8px; width: 100%; box-sizing: border-box; background-color: transparent; color: white; font-weight: bolder;" placeholder="Enter your phone number" required>
-            </div>
-            <div style="margin-bottom: 15px;">
-              <label for="email" style="display: block; margin-bottom: 5px;color:#f4d394">Email:</label>
-              <input type="email" id="email" name="email" style="padding: 8px; width: 100%; box-sizing: border-box; background-color: transparent; color: white; font-weight: bolder;" placeholder="Enter your email address" required>
-            </div>
-            <div style="margin-bottom: 15px;">
-              <label style="display: block; margin-bottom: 5px;color: #f4d394;">Institute Type:</label>
-              <label for="public" style="margin-right: 10px;"><input type="radio" id="public" name="school-type" value="School"> SCHOOL</label>
-              <label for="private" style="margin-right: 10px;"><input type="radio" id="private" name="school-type" value="University"> UNIVERSITY</label>
-            </div>
-
-            <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
-          </form>
-        </div>
-      
+  <header>
+    <div class="mun__navbar">
+      <div class="mun__navbar-logo">
+        <img src="../Assets/logo.png" alt="logo" />
+      </div>
+      <ul class="mun__navbar-links">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="committes.html">COMMITTEES</a></li>
+        <li><a href="secretariat.html">SECRETARIAT</a></li>
+        <li><a href="partners.html">PARTNERS</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+      </ul>
+      <a href="./register.html" id="register">REGISTER</a>
+      <div class="mun__navbar-togglebtn">
+        <i id="navbar-bars" class="fa-solid fa-bars" style="color: #a79f90"></i>
       </div>
     </div>
+    <div class="mun__navbar-dropdown">
+      <ul>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="committes.html">COMMITTEES</a></li>
+        <li><a href="secretariat.html">SECRETARIAT</a></li>
+        <li><a href="partners.html">PARTNERS</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+      </ul>
+    </div>
+  </header>
+  <span class="committes-heading">
+    <center>REGISTER</center>
+  </span>
+
+  <div class="background-image-of-sg-message" style="padding: 20px;">
+    <div class="register-form" style="display: flex; flex-wrap: wrap; justify-content: center;">
+
+      <!-- Instructions side -->
+      <div style="flex: 1; max-width: 50%; margin:50px;">
+        <h2 style="color: #f4d394;">Instructions:</h2>
+        <p style="color: white;">Please fill out the form below to register. Make sure to provide accurate information.
+        </p>
+        <center><img src="../Assets/TeaParty.png" style="height: 200px; width: 200px; margin-top: 30px;"></center>
+      </div>
+
+      <!-- Form side -->
+      <div style="flex: 1; max-width: 50%; margin: 50px;">
+        <form style="margin: 0 auto;">
+          <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; margin-bottom: 5px; color:#f4d394">Name:</label>
+            <input type="text" id="name" name="name"
+              style="padding: 8px; width: 100%; box-sizing: border-box; background-color: transparent; color: white; font-weight: bolder;"
+              placeholder="Enter your name" required>
+          </div>
+          <div style="margin-bottom: 15px;">
+            <label for="phone" style="display: block; margin-bottom: 5px;color: #f4d394;">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+              style="padding: 8px; width: 100%; box-sizing: border-box; background-color: transparent; color: white; font-weight: bolder;"
+              placeholder="Enter your phone number" required>
+          </div>
+          <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px;color:#f4d394">Email:</label>
+            <input type="email" id="email" name="email"
+              style="padding: 8px; width: 100%; box-sizing: border-box; background-color: transparent; color: white; font-weight: bolder;"
+              placeholder="Enter your email address" required>
+          </div>
+          <div style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 5px;color: #f4d394;">Institute Type:</label>
+            <label for="public" style="margin-right: 10px;"><input type="radio" id="public" name="school-type" value="School" checked> SCHOOL</label>
+            <label for="private" style="margin-right: 10px;"><input type="radio" id="private" name="school-type" value="University"> UNIVERSITY</label>
+          </div>          
+          <div style="margin-bottom: 15px;">
+            <label for="school" style="display: block; margin-bottom: 5px;color:#f4d394">School/University Name:</label>
+            <input type="text" id="school" name="school"
+                style="padding: 8px; width: 100%; box-sizing: border-box; background-color: transparent; color: white; font-weight: bolder;"
+                placeholder="Enter your school/university name" required>
+        </div>        
+        <!-- School options -->
+        <div id="schoolOptions">
+          <label style="display: block; margin-bottom: 5px;color: #f4d394;">School Options (Select up to 3):</label>
+          <label><input type="checkbox" name="school-option" value="Option 1"> Option 1</label><br>
+          <label><input type="checkbox" name="school-option" value="Option 2"> Option 2</label><br>
+          <label><input type="checkbox" name="school-option" value="Option 3"> Option 3</label><br>
+          <label><input type="checkbox" name="school-option" value="Option 4"> Option 4</label><br>
+          <label><input type="checkbox" name="school-option" value="Option 5"> Option 5</label><br>
+          <label><input type="checkbox" name="school-option" value="Option 6"> Option 6</label><br>
+        </div>
+
+        <!-- University options -->
+        <div id="universityOptions" style="display: none;">
+          <label style="display: block; margin-bottom: 5px;color: #f4d394;">University Options (Select up to 3):</label>
+          <label><input type="checkbox" name="university-option" value="Option A"> Option A</label><br>
+          <label><input type="checkbox" name="university-option" value="Option B"> Option B</label><br>
+          <label><input type="checkbox" name="university-option" value="Option C"> Option C</label><br>
+          <label><input type="checkbox" name="university-option" value="Option D"> Option D</label><br>
+          <label><input type="checkbox" name="university-option" value="Option E"> Option E</label><br>
+          <label><input type="checkbox" name="university-option" value="Option F"> Option F</label><br>
+        </div>
+        <div style="margin-bottom: 15px; margin-top: 10px; background-color: #444; padding: 10px; border-radius: 5px;">
+          <label for="screenshot" style="display: block; margin-bottom: 5px; color: #f4d394;">Upload Screenshot:</label>
+          <input type="file" id="screenshot" name="screenshot" accept="image/*" style="border: none; background-color: transparent; color: white;">
+        </div>        
+          <button type="submit"
+            style="padding: 10px 20px; background-color: #f4d394; color: black; border: none; border-radius: 5px; cursor: pointer; font-weight: 900; width: 100%;">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <script>
+    // Function to clear checkboxes
+    function clearCheckboxes(checkboxes) {
+      checkboxes.forEach(checkbox => {
+        checkbox.checked = false;
+        checkbox.parentElement.style.fontWeight = 'normal';
+      });
+    }
   
+    document.getElementById('public').addEventListener('change', function() {
+      if (this.checked) {
+        document.getElementById('schoolOptions').style.display = 'block';
+        document.getElementById('universityOptions').style.display = 'none';
+        clearCheckboxes(document.querySelectorAll('input[name="university-option"]'));
+      }
+    });
+  
+    document.getElementById('private').addEventListener('change', function() {
+      if (this.checked) {
+        document.getElementById('schoolOptions').style.display = 'none';
+        document.getElementById('universityOptions').style.display = 'block';
+        clearCheckboxes(document.querySelectorAll('input[name="school-option"]'));
+      }
+    });
+  
+    // Handling checkbox selection limit and priority
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    const limit = 3; // Maximum number of checkboxes allowed to be checked
+  
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', function() {
+        const checkedCheckboxes = Array.from(checkboxes).filter(checkbox => checkbox.checked);
+        if (checkedCheckboxes.length > limit) {
+          this.checked = false;
+        }
+        limitCheckboxes(checkboxes, limit);
+  
+        // Apply priority to checked checkboxes
+        const checkedPriorityCheckboxes = checkedCheckboxes.slice(0, limit);
+        checkedCheckboxes.forEach(checkbox => checkbox.parentElement.style.fontWeight = 'normal');
+        checkedPriorityCheckboxes.sort((a, b) => a.nextElementSibling.textContent.localeCompare(b.nextElementSibling.textContent));
+        checkedPriorityCheckboxes.forEach((checkbox, index) => {
+          checkbox.parentElement.style.fontWeight = 'bold';
+          checkbox.nextElementSibling.textContent = `${index + 1}. ${checkbox.nextElementSibling.textContent}`;
+        });
+      });
+    });
+  
+    // Function to limit the number of checkboxes that can be checked
+    function limitCheckboxes(checkboxes, limit) {
+      let checkedCheckboxes = Array.from(checkboxes).filter(checkbox => checkbox.checked);
+      if (checkedCheckboxes.length >= limit) {
+        checkboxes.forEach(checkbox => {
+          if (!checkbox.checked) {
+            checkbox.disabled = true;
+          }
+        });
+      } else {
+        checkboxes.forEach(checkbox => {
+          checkbox.disabled = false;
+        });
+      }
+    }
+  </script>
+
 </body>
 
 </html>
