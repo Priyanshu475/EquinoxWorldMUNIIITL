@@ -15,6 +15,7 @@ body {
     background-color: black;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
+    height: 200vh;
 }
 
 header{
@@ -152,4 +153,12 @@ header{
     background-size: contain;
     background-position: center;
     height: 120vh;
+}
+.register-form{
+    border: #F4D394 3px solid;
+    border-radius: 3%;
+    margin-top: 75px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 100vh;
 }
