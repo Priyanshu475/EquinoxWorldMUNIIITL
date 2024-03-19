@@ -1,155 +1,155 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
+.section__padding {
+    padding: 4rem 6rem;
+}
 body {
-  background-color: #12015c;
-  font-family: 'Poppins', sans-serif;
-  color: white;
+    background-color: black;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
-#title h1{
-  text-align: center;
-  color: white;
-  font-family: inherit;
+header{
+    position: relative;
+    padding: 1rem 2rem;
 }
 
-.text-center {
- text-align: center;
- margin: 0.5em;
+.mun__navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.container{
-  width: 820px;
-  height: 90%;
-  margin: 1% auto;
-  display: flex;
-  flex: 1 1 100%;
-  overflow: hidden;
-  align-items: stretch;
-	justify-content: space-between;
-  box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.2);
-  border-radius: 10px;
+.mun__navbar-logo img{
+    width: 6.25rem;
+    height: auto;
 }
 
-@media (max-width: 767px) {
-  .container {
-    flex-direction: column;
-    width: 375px; 
-  }
-  .left {
-    height: 100%;
-  }
+.mun__navbar-links{
+    display: flex;
+    gap: 2rem;
 }
 
-.left {
-  background-color: #1E88E5;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('https://images.pexels.com/photos/2860807/pexels-photo-2860807.jpeg?crop=entropy&cs=srgb&dl=pexels-anni-roenkae-2860807.jpg&fit=crop&fm=jpg&h=1706&w=1280');
-  overflow: hidden;
+.mun__navbar-links li{
+    list-style: none;
 }
 
-.right {
-  position: relative;
-  background: #E91E63;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
+.mun__navbar-links a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+.mun__navbar-links a:hover{
+    color: #F4D394;
 }
 
-/* Form */
-form {
-  padding: 2.5rem 0.625rem;
-  border-radius: 0.25rem;
+.mun__navbar-togglebtn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
 }
 
-.form-set{
-  padding: 5px; 
+.mun__navbar #register{
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #F4D394;
+    font-size: 1.1rem;
+    font-weight: 900;
+    line-height: 1rem;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-bottom: 0.5rem;
 }
 
-@media (min-width: 480px) {
-  form {
-    padding: 1rem;
-    display: block;
-  }
+.mun__navbar #register:hover{
+    color: #fff;
 }
 
-.form-control {
-  width: 100%;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+.mun__navbar-dropdown{
+    display: none;
+    position: absolute;
+    right: 0.8rem;
+    height: 0;
+    /* top: 4rem; */
+    /* width: 300px; */
+    overflow: hidden;
+    /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
 }
 
-.form-control:focus {
-  border-color: #80bdff;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-#name-label,
-#email-label,
-#number-label,
-#drop-label,
-#radio-label,
-#checkbox-label,
-#textarea-label{
-  display: flex;
-  font-weight: bold;
-  font-size: 12px;
+.mun__navbar-dropdown.open{
+    height: 17vh;
 }
 
-input,
-button,
-select,
-textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+.mun__navbar-dropdown li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/*Comment*/
-textarea {
-  background: none;
+.mun__navbar-dropdown a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
 }
 
-.input-textarea {
-  margin-top: 6px;
-  width: 100%;
-  height: 105px;
-  border: 1px solid white;
-  border-radius: 5px;
-  resize: none;
-  transition: 0.3s;
+.mun__navbar-dropdown a:hover{
+    color: #F4D394;
 }
 
-.input-textarea:hover {
-  border: 2px solid white;
+/*  Media Queries of the Navigation Bar */
+
+@media (max-width:1175px) {
+    .mun__navbar-links{
+        display: none;
+    }
+
+    .mun__navbar-togglebtn{
+        display: block;
+    }
+
+    .mun__navbar-dropdown{
+        display: block;
+        width: 95vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #594E3A;
+        border-radius: 20px;
+    }
 }
 
-/*Button */
-button {
-  border: none;
-  border-radius: 5px;
+.committes-heading {
+    font-size: 6em;
+    font-weight: 800;
+    letter-spacing: 15px;
 }
 
-.submit-button {
-  width: 100%;
-  height: 30px;
-  background-color: black;
-  color: white;
-  transition: 0.3s;
-}
-
-.submit-button:hover {
-  background: white;
+.background-image-of-sg-message {
+    position: relative;
+    background-image: url('../Assets/logo-opacity-30.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 120vh;
 }

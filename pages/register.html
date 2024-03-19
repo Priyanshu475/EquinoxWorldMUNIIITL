@@ -4,163 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Assets/favicon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./register-style.css">
-    <title>Registration Form</title>
-    <style>
-        /* Hide University checkboxes by default */
-        #university-checkboxes {
-            display: none;
-        }
-
-        /* Fixing the width of the checkboxes container */
-        .form-set {
-            width: 300px; /* Adjust the width as needed */
-        }
-    </style>
+    <title>Equninox World MUN - IIIT Lucknow</title>
 </head>
 
 <body>
-    <h1>Register now!</h1>
-    <div id="wrapper">
-        <div class="container">
-            <header class="left header">
-                <div class="title-header">
-                    <h1 id="title" class="text-center">Registration Form</h1>
-                    <p id="description" class="description text-center">Thank you for taking the time to help us improve
-                        the platform</p>
-                </div>
-            </header>
-
-            <form method="post" name="contact-form" id="survey-form" class="right">
-                <div class="form-set">
-                    <label id="name-label" for="name">Name</label>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name"
-                        required />
-                </div>
-
-                <div class="form-set">
-                    <label id="contactnumber-label" for="contactnumber">Contact Number</label>
-                    <input type="number" name="contactnumber" id="contactnumber" class="form-control" placeholder="Enter your contact number"
-                        required />
-                </div>
-
-                <div class="form-set">
-                    <label id="email-label" for="email">E-mail</label>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your e-mail"
-                        required />
-                </div>
-
-                <div class="form-set">
-                    <p id="radio-label">School/University</p>
-                    <label class="radio">
-                        <input name="user-recommend" value="School" type="radio" class="input-radio"
-                            checked />School
-                    </label>
-
-                    <label class="radio">
-                        <input name="user-recommend" value="University" type="radio" class="input-radio" />University
-                    </label>
-                </div>
-
-                <div class="form-set">
-                    <label id="orgname-label" for="orgname">School/University Name</label>
-                    <input type="text" name="orgname" id="orgname" class="form-control" placeholder="Enter your school/university name"
-                        required />
-                </div>
-
-                <div class="form-set" id="school-checkboxes">
-                    <p id="checkbox-label">School Committee Option</p>
-                    <label>
-                        <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox" />G20
-                    </label>
-                    <label>
-                        <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox" />UNHRC
-                    </label>
-                    <label>
-                        <input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox" />UNICEF</label>
-                    <label>
-                        <input name="prefer" value="videos" type="checkbox" class="input-checkbox" />AIPPM
-                    </label>
-                    <label>
-                        <input name="prefer" value="videos" type="checkbox" class="input-checkbox" />FAO
-                    </label>
-                    <label>
-                        <input name="prefer" value="videos" type="checkbox" class="input-checkbox" />TRUTH COMMISSION
-                    </label>
-                </div>
-
-                <div class="form-set" id="university-checkboxes">
-                    <p id="checkbox-label">University Committee Option</p>
-                    <label>
-                        <input name="prefer" value="research-projects" type="checkbox" class="input-checkbox" />UNGA
-                    </label>
-                    <label>
-                        <input name="prefer" value="internships" type="checkbox" class="input-checkbox" />UNSC
-                    </label>
-                    <label>
-                        <input name="prefer" value="seminars" type="checkbox" class="input-checkbox" />WTO
-                    </label>
-                    <label>
-                        <input name="prefer" value="workshops" type="checkbox" class="input-checkbox" />LOK SABHA
-                    </label>
-                    <label>
-                        <input name="prefer" value="workshops" type="checkbox" class="input-checkbox" />UNW
-                    </label>
-                    <label>
-                        <input name="prefer" value="workshops" type="checkbox" class="input-checkbox" />UNODC
-                    </label>
-                </div>
-
-               
-
-                <div class="form-set">
-                    <p id="file-label">Upload Payment Screenshot</p>
-                    <input type="file" name="image" id="image" accept="image/*">
-                </div>
-
-                <div class="form-set">
-                    <button type="submit" id="submit" class="submit-button">Submit</button>
-                </div> 
-            </form>
+    <header>
+        <div class="mun__navbar">
+          <div class="mun__navbar-logo">
+            <img src="../Assets/logo.png" alt="logo" />
+          </div>
+          <ul class="mun__navbar-links">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="committes.html">COMMITTEES</a></li>
+            <li><a href="secretariat.html">SECRETARIAT</a></li>
+            <li><a href="partners.html">PARTNERS</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+          </ul>
+          <a href="./register.html" id="register">REGISTER</a>
+          <div class="mun__navbar-togglebtn">
+            <i
+              id="navbar-bars"
+              class="fa-solid fa-bars"
+              style="color: #f4d394"
+            ></i>
+          </div>
         </div>
+        <div class="mun__navbar-dropdown">
+          <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="committes.html">COMMITTEES</a></li>
+          <li><a href="secretariat.html">SECRETARIAT</a></li>
+          <li><a href="partners.html">PARTNERS</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+          </ul>
+        </div>
+      </header>
+    <span class="committes-heading">
+        <center>REGISTER</center>
+    </span>
+
+    <div class="background-image-of-sg-message">
     </div>
-
-    <script src="./Googlesheet.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const schoolCheckboxes = document.getElementById('school-checkboxes');
-            const universityCheckboxes = document.getElementById('university-checkboxes');
-            const schoolRadio = document.querySelector('input[value="School"]');
-            const universityRadio = document.querySelector('input[value="University"]');
-            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-
-            function toggleCheckboxes() {
-                if (schoolRadio.checked) {
-                    schoolCheckboxes.style.display = 'block';
-                    universityCheckboxes.style.display = 'none';
-                } else if (universityRadio.checked) {
-                    schoolCheckboxes.style.display = 'none';
-                    universityCheckboxes.style.display = 'block';
-                }
-            }
-
-            toggleCheckboxes(); // Call the function initially
-
-            schoolRadio.addEventListener('change', toggleCheckboxes);
-            universityRadio.addEventListener('change', toggleCheckboxes);
-
-            // Logic to limit checkbox selection
-            checkboxes.forEach(checkbox => {
-                checkbox.addEventListener('change', function () {
-                    let checkedCount = document.querySelectorAll('input[type="checkbox"]:checked').length;
-                    if (checkedCount > 3) {
-                        this.checked = false;
-                        alert('You can only select a maximum of 3 options.');
-                    }
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>
