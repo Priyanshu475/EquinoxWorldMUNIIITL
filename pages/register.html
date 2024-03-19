@@ -111,6 +111,19 @@
         <div style="margin-bottom: 15px; margin-top: 10px; background-color: #444; padding: 10px; border-radius: 5px;">
           <label for="screenshot" style="display: block; margin-bottom: 5px; color: #f4d394;">Upload Screenshot:</label>
           <input type="file" id="screenshot" name="screenshot" accept="image/*" style="border: none; background-color: transparent; color: white;">
+          <style>
+            input[type="file"]::-webkit-file-upload-button {
+              color: white;
+              background-color: #f4d394;
+              border: none;
+              border-radius: 5px;
+              padding: 8px 12px;
+              cursor: pointer;
+            }
+            input[type="file"]::-webkit-file-upload-button:hover {
+              background-color: #ffa500;
+            }
+          </style>
         </div>        
           <button type="submit"
             style="padding: 10px 20px; background-color: #f4d394; color: black; border: none; border-radius: 5px; cursor: pointer; font-weight: 900; width: 100%;">Submit</button>
