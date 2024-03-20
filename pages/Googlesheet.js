@@ -7,7 +7,23 @@ form.addEventListener('submit', e => {
   e.preventDefault();
   loader.style.display = 'block'; // Show loader
 
-  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  // Combine all selected committee options into a single string
+  let committeeOptions = "";
+  document.querySelectorAll('input[name="school-option"]:checked').forEach(checkbox => {
+    committeeOptions += checkbox.value + " ";
+  });
+  document.querySelectorAll('input[name="university-option"]:checked').forEach(checkbox => {
+    committeeOptions += checkbox.value + " ";
+  });
+
+  // Remove trailing space if exists
+  committeeOptions = committeeOptions.trim();
+
+  // Append the committee options to FormData
+  const formData = new FormData(form);
+  formData.append('committeeOptions', committeeOptions);
+
+  fetch(scriptURL, { method: 'POST', body: formData})
     .then(response => {
       loader.style.display = 'none'; // Hide loader
       alert("Thank you! Your form is submitted successfully.");

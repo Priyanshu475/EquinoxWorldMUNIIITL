@@ -54,7 +54,13 @@
         <p style="color: white;">Please fill out the form below to register. Make sure to provide accurate information.
         </p>
         <center><img src="../Assets/QR_IMG.png" style="height: 200px; width: 200px; margin-top: 30px;"></center>
+        <br>
+        <br>
+             <p style="color: white;">Please fill out the form below to register. Make sure to provide accurate information.
+        <p style="color: white;">Please fill out the form below to register. Make sure to provide accurate information.
+
       </div>
+ 
 
       <!-- Form side -->
       <div style="flex: 1; max-width: 50%; margin: 50px;">
@@ -93,23 +99,25 @@
         <!-- School options -->
         <div id="schoolOptions">
           <label style="display: block; margin-bottom: 5px;color: #f4d394;">School Options (Select up to 3):</label>
-          <label><input type="checkbox" name="school-option" value="Option 1"> Option 1</label><br>
-          <label><input type="checkbox" name="school-option" value="Option 2"> Option 2</label><br>
-          <label><input type="checkbox" name="school-option" value="Option 3"> Option 3</label><br>
-          <label><input type="checkbox" name="school-option" value="Option 4"> Option 4</label><br>
-          <label><input type="checkbox" name="school-option" value="Option 5"> Option 5</label><br>
-          <label><input type="checkbox" name="school-option" value="Option 6"> Option 6</label><br>
+          <label><input type="checkbox" name="school-option" value="G20">G20</label><br>
+          <label><input type="checkbox" name="school-option" value="UNHRC">UNHRC</label><br>
+          <label><input type="checkbox" name="school-option" value="UNICEF">UNICEF</label><br>
+          <label><input type="checkbox" name="school-option" value="AIPPM">AIPPM</label><br>
+          <label><input type="checkbox" name="school-option" value="FAO">FAO</label><br>
+          <label><input type="checkbox" name="school-option" value="TRUTH COMMISSION">TRUTH COMMISSION</label><br>
+          <label><input type="checkbox" name="school-option" value="YOUTH PARLIAMENT">YOUTH PARLIAMENT</label><br>
         </div>
 
         <!-- University options -->
         <div id="universityOptions" style="display: none;">
           <label style="display: block; margin-bottom: 5px;color: #f4d394;">University Options (Select up to 3):</label>
-          <label><input type="checkbox" name="university-option" value="Option A"> Option A</label><br>
-          <label><input type="checkbox" name="university-option" value="Option B"> Option B</label><br>
-          <label><input type="checkbox" name="university-option" value="Option C"> Option C</label><br>
-          <label><input type="checkbox" name="university-option" value="Option D"> Option D</label><br>
-          <label><input type="checkbox" name="university-option" value="Option E"> Option E</label><br>
-          <label><input type="checkbox" name="university-option" value="Option F"> Option F</label><br>
+          <label><input type="checkbox" name="university-option" value="UNGA">UNGA</label><br>
+          <label><input type="checkbox" name="university-option" value="UNSC">UNSC</label><br>
+          <label><input type="checkbox" name="university-option" value="WTO">WTO</label><br>
+          <label><input type="checkbox" name="university-option" value="LOK SABHA">LOK SABHA</label><br>
+          <label><input type="checkbox" name="university-option" value="UNW">UN WOMEN</label><br>
+          <label><input type="checkbox" name="university-option" value="UNODC">UNODC</label><br>
+          <label><input type="checkbox" name="university-option" value="YOUTH PARLIAMENT">YOUTH PARLIAMENT</label><br>
         </div>
         <label style="display: block; margin-bottom: 5px;color: #f4d394; margin-top: 10px; font-size: x-large;">Payment</label>
         <div style="margin-bottom: 15px;">
@@ -120,7 +128,7 @@
       </div>      
         <div style="margin-bottom: 15px; margin-top: 10px; background-color: #444; padding: 10px; border-radius: 5px;">
           <label for="screenshot" style="display: block; margin-bottom: 5px; color: #f4d394;">Upload Screenshot:</label>
-          <input type="file" id="screenshot" name="screenshot" accept="image/*" style="border: none; background-color: transparent; color: white;">
+          <input required type="file" id="screenshot" name="screenshot" accept="image/*" style="border: none; background-color: transparent; color: white;">
           <style>
             input[type="file"]::-webkit-file-upload-button {
               color: black;
