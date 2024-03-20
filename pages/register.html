@@ -43,10 +43,11 @@
   <span class="committes-heading">
     <center>REGISTER</center>
   </span>
-
+  <div id="loader" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <img style="height: 100px;" src="../Assets/ZKZg.gif" alt="Loading..." />
+  </div>  
   <div class="background-image-of-sg-message" style="padding: 20px;">
     <div class="register-form" style="display: flex; flex-wrap: wrap; justify-content: center;">
-
       <!-- Instructions side -->
       <div style="flex: 1; max-width: 50%; margin:50px;">
         <h2 style="color: #f4d394;">Instructions:</h2>
@@ -57,7 +58,7 @@
 
       <!-- Form side -->
       <div style="flex: 1; max-width: 50%; margin: 50px;">
-        <form style="margin: 0 auto;">
+        <form method="post" action="" name="contact-form" style="margin: 0 auto;">
           <label style="display: block; margin-bottom: 5px;color: #f4d394; margin-top: 10px; font-size: x-large;">Basic Details</label>
           <div style="margin-bottom: 15px;">
             <label for="name" style="display: block; margin-bottom: 5px; color:#f4d394">Name:</label>
@@ -71,6 +72,7 @@
               style="padding: 8px; width: 100%; box-sizing: border-box; background-color: transparent; color: white; font-weight: bolder;"
               placeholder="Enter your phone number" required>
           </div>
+ 
           <div style="margin-bottom: 15px;">
             <label for="email" style="display: block; margin-bottom: 5px;color:#f4d394">Email:</label>
             <input type="email" id="email" name="email"
@@ -133,14 +135,20 @@
             }
           </style>
         </div>        
-          <button type="submit"
-            style="padding: 10px 20px; background-color: #f4d394; color: black; border: none; border-radius: 5px; cursor: pointer; font-weight: 900; width: 100%;">Submit</button>
+        <button type="submit"
+        style="padding: 10px 20px; background-color: #f4d394; color: black; border: none; border-radius: 5px; cursor: pointer; font-weight: 900; width: 100%;">Submit</button>
         </form>
       </div>
 
     </div>
   </div>
+<<<<<<< HEAD
   <script src="../script.js">
+=======
+  <script src="./Googlesheet.js"></script>
+  <script>
+
+>>>>>>> 723cb59af89d95153641ac47a075153d9125da32
     // Function to clear checkboxes
     function clearCheckboxes(checkboxes) {
       checkboxes.forEach(checkbox => {
