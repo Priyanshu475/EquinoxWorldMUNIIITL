@@ -15,6 +15,7 @@ body {
     background-color: black;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
+    height: 200vh;
 }
 
 header{
@@ -140,16 +141,9 @@ header{
 }
 
 .committes-heading {
-    width: 100%;
     font-size: 6em;
     font-weight: 800;
     letter-spacing: 15px;
-}
-
-#comming-soon{
-    color: #f4d394;
-    font-size: 3rem; 
-    margin: top 100px;
 }
 
 .background-image-of-sg-message {
@@ -160,32 +154,19 @@ header{
     background-position: center;
     height: 120vh;
 }
-
-@media (max-width:1000px){
-    .committes-heading > center{
-        font-size: 3rem;
-        text-align: center;
-      }
+.register-form{
+    border: #F4D394 3px solid;
+    border-radius: 3%;
+    margin-top: 75px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: max-content
 }
-@media (max-width:500px){
-    header{
-        padding: 0.5rem 1rem;
-    }
-    .mun__navbar-logo img{
-        width: 5rem;
-        height: auto;
-    }
-    .committes-heading > center{
-        font-size: 2rem;
-        text-align: center;
-        letter-spacing: 0.5rem;
-        margin-top: 2rem;
-      }
-      center #comming-soon{
-        color: #f4d394;
-        font-size: 1.5rem; 
-    }
-    #register{
-        padding-right: 30px;
+
+@media (max-width:1200px) {
+    .committes-heading {
+        font-size: 3em;
+        font-weight: 800;
+        letter-spacing: 15px;
     }
 }
