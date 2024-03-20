@@ -57,7 +57,7 @@
 
       <!-- Form side -->
       <div style="flex: 1; max-width: 50%; margin: 50px;">
-        <form style="margin: 0 auto;">
+        <form method="post" action="" name="contact-form" style="margin: 0 auto;">
           <label style="display: block; margin-bottom: 5px;color: #f4d394; margin-top: 10px; font-size: x-large;">Basic Details</label>
           <div style="margin-bottom: 15px;">
             <label for="name" style="display: block; margin-bottom: 5px; color:#f4d394">Name:</label>
@@ -133,14 +133,16 @@
             }
           </style>
         </div>        
-          <button type="submit"
-            style="padding: 10px 20px; background-color: #f4d394; color: black; border: none; border-radius: 5px; cursor: pointer; font-weight: 900; width: 100%;">Submit</button>
+        <button type="submit"
+        style="padding: 10px 20px; background-color: #f4d394; color: black; border: none; border-radius: 5px; cursor: pointer; font-weight: 900; width: 100%;">Submit</button>
         </form>
       </div>
 
     </div>
   </div>
+  <script src="./Googlesheet.js"></script>
   <script>
+
     // Function to clear checkboxes
     function clearCheckboxes(checkboxes) {
       checkboxes.forEach(checkbox => {
