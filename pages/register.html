@@ -49,21 +49,16 @@
   <div class="background-image-of-sg-message" style="padding: 20px;">
     <div class="register-form" style="display: flex; flex-wrap: wrap; justify-content: center;">
       <!-- Instructions side -->
-      <div style="flex: 1; max-width: 50%; margin:50px;">
+      <div class="intro" style="flex: 1; max-width: 50%; margin:50px;">
         <h2 style="color: #f4d394;">Instructions:</h2>
         <p style="color: white;">Please fill out the form below to register. Make sure to provide accurate information.
         </p>
-        <center><img src="../Assets/QR_IMG.png" style="height: 200px; width: 200px; margin-top: 30px;"></center>
-        <br>
-        <br>
-             <p style="color: white;">Please fill out the form below to register. Make sure to provide accurate information.
-        <p style="color: white;">Please fill out the form below to register. Make sure to provide accurate information.
-
+        <center><img src="../Assets/QR_IMG.png" id="QRimg" style="height: 200px; width: 200px; margin-top: 30px;"></center>
       </div>
  
 
       <!-- Form side -->
-      <div style="flex: 1; max-width: 50%; margin: 50px;">
+      <div class="user-details" style="flex: 1; max-width: 50%; margin: 50px;">
         <form method="post" action="" name="contact-form" style="margin: 0 auto;">
           <label style="display: block; margin-bottom: 5px;color: #f4d394; margin-top: 10px; font-size: x-large;">Basic Details</label>
           <div style="margin-bottom: 15px;">
@@ -150,6 +145,7 @@
 
     </div>
   </div>
+
   <script src="../script.js"></script>
   <script src="./Googlesheet.js"></script>
   <script>
@@ -216,7 +212,5 @@
       }
     }
   </script>
-
 </body>
-
 </html>

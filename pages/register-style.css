@@ -170,3 +170,67 @@ header{
         letter-spacing: 15px;
     }
 }
+
+@media (max-width:850px){
+    .register-form{
+        border: #F4D394 3px solid;
+        border-radius: 20px;
+        margin-top: 75px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .intro{
+        margin: 20px !important;
+        max-width: 70% !important;
+        text-align: center;
+    }
+    #QRimg{
+        height: 170px !important;
+        width: 170px !important;
+    }
+    .user-details{
+        max-width: 70% !important;
+    }
+}
+@media (max-width:550px){
+    .register-form{
+        border: #F4D394 3px solid;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .intro{
+        margin: 20px !important;
+        max-width: 80% !important;
+        text-align: center;
+    }
+    #QRimg{
+        height: 180px !important;
+        width: 180px !important;
+    }
+    .user-details{
+        max-width: 80% !important;
+    }
+}
+@media (max-width:450px){
+    .register-form{
+        border: #F4D394 3px solid;
+        border-radius: 20px;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .intro{
+        margin: 20px !important;
+        max-width: 80% !important;
+        text-align: center;
+    }
+    #QRimg{
+        height: 180px !important;
+        width: 180px !important;
+    }
+    .user-details{
+        max-width: 85% !important;
+    }
+}
