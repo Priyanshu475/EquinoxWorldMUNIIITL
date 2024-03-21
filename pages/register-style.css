@@ -250,4 +250,10 @@ header{
         font-weight: 800;
         letter-spacing: 8px;
     }
+    #mun-price{
+        font-size: 0.66rem !important;
+    }
+    #mun-price-y{
+        font-size: 0.66rem !important;
+    }
 }
