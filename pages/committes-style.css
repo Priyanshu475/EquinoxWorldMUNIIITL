@@ -350,7 +350,7 @@ header{
     }
     .committees-details-r{
         width: 75vw;
-        margin-top: 3rem;
+        margin-top: 16rem !important;
         /* padding-top: 2rem; */
         flex-direction: column-reverse;
     }
