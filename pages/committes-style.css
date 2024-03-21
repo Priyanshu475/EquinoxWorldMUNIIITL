@@ -344,15 +344,16 @@ header{
 
     .committees-details{
         width: 75vw;
+
         margin-top: 3rem;
         flex-direction: column;
     }
     .committees-details-r{
         width: 75vw;
         margin-top: 3rem;
+        /* padding-top: 2rem; */
         flex-direction: column-reverse;
     }
-
     .committes-details-info h1{
         font-size: 0.9rem;
         padding-bottom: 1rem;
@@ -363,6 +364,26 @@ header{
     }
     .committee-position p{
         font-size: 0.56rem;
+    }
+    header{
+        padding: 0.5rem 1rem;
+    }
+    #register{
+        padding-top: 10px;
+        padding-right: 30px;
+    }
+    #seperation{
+        margin-top: 40px;
+        height: 4px !important;
+    }
+}
+
+@media (max-width:810px){
+    .committees-details-r{
+        width: 75vw;
+        margin-top: 6rem;
+        /* padding-top: 2rem; */
+        flex-direction: column-reverse;
     }
 }
 

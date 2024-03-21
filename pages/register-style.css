@@ -94,6 +94,7 @@ header{
 
 .mun__navbar-dropdown.open{
     height: 17vh;
+    z-index: 100;
 }
 
 .mun__navbar-dropdown li{
@@ -232,5 +233,21 @@ header{
     }
     .user-details{
         max-width: 85% !important;
+    }
+    #register{
+        padding-right: 40px;
+        padding-top: 10px;
+    }
+    .mun__navbar-logo img{
+        width: 5rem;
+        height: auto;
+    }
+    header{
+        padding: 0.5rem 1rem;
+    }
+    .committes-heading {
+        font-size: 3em;
+        font-weight: 800;
+        letter-spacing: 8px;
     }
 }
