@@ -497,10 +497,10 @@ header{
         text-align: center;
     }
     .mun__hero-image{
-        margin-top: -7rem;
+        margin-top: 0rem;
     }
     .mun__hero-image img{
-        width: 250px;
+        width: 200px;
     }
 }
 
@@ -1160,7 +1160,7 @@ video {
 @media(max-width:440px){
     .mun__footer{
         height: 26vh;
-        margin-top: -15rem;
+        margin-top: -5rem;
         padding: 1rem 2rem;
         padding-right: 1.2rem;
     }
@@ -1243,6 +1243,7 @@ video {
 }
 @media(max-width:450px){
     .slides1{
+        margin-top: 100px;
         width: 250px;
         height: 55px;
     }
