@@ -1248,12 +1248,8 @@ video {
         height: 55px;
     }
     center#gallery-text{
-        margin-top: -650px;
+        margin-top: -450px;
     }
-    center #gallery-text{
-        margin-top: -300px;
-    }
-    
     .background-image-of-sg-message{
         margin-top: -180px;
     }
