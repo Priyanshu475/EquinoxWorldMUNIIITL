@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+html, body{
+    overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
 
 .section__padding {
     padding: 4rem 6rem;
@@ -20,6 +28,7 @@ body {
 header{
     position: relative;
     padding: 1rem 2rem;
+    z-index: 999;
 }
 
 .mun__navbar{
@@ -145,245 +154,252 @@ header{
 }
 
 .committes-heading{
-    font-size: 6em;
+    font-size: 6rem;
     font-weight: 800;
     letter-spacing: 15px;
+    color: white;
 }
 
-.background-image-of-sg-message {
-    position: relative;
-    background-image: url('../Assets/logo-opacity-30.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 120vh;
+@media (max-width:600px){
+  .committes-heading{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: white;
+}
 }
 
-.committees-row {
-    display: flex;
-    height: 50vh;
-    justify-content: center; /* Center the columns horizontally */
+.section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.committees-col-1,
-.committees-col-2,
-.committees-col-3 {
-    flex: 1;
-    position: relative;
-    overflow: hidden;
+.main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.committees-col-1 img,
-.committees-col-2 img,
-.committees-col-3 img {
-    width: 23vw;
-    height: 25vh;
-    object-fit: contain;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.committees-details {
-    display: flex;
-    align-items: center; /* Align items vertically centered */
-    height: 43vh;
-    width: 65vw;
-
-    margin: 1rem auto;
-}
-
-.committees-details-r {
-    display: flex;
-    align-items: center; /* Align items vertically centered */
-    height: 43vh;
-    width: 65vw;
-
-    margin: 1rem auto;
-}
-
-.school, .university{
-    font-size: 2rem;
-}
-
-.committees-details-img img {
-    width: 22vw;
-    /* height: 45vh; Maintain aspect ratio */
-    /* padding-top: 30px;
-    padding-left: 30px;*/
-     padding-right: 5rem;
-}
-.committees-details-img2 img {
-    width: 22vw;
-    /* height: 45vh; Maintain aspect ratio */
-    /* padding-top: 30px;
-    padding-left: 30px;*/
-    padding-left: 5rem;
-
-}
-
-.committees-details-text {
-    flex: 1; /* Allow the text to take up remaining space */
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-
-.committes-details-info{
-    margin-bottom: 40px;
-}
-
-/* /Media queries */
-
-@media(max-width:1250px){
-    .committes-heading {
-        font-size: 4em;
-        font-weight: 800;
-        letter-spacing: 1rem;
-    }
-    .committees-details-img img {
-        /* width: 22vw; */
-         padding-right: 3rem;
-    }
-    .committees-details-img2 img {
-        padding-left: 3rem;
+#TC .left{
+  background: url("../Assets/11-removebg-preview.png")
+    no-repeat center / cover ;
+        background-color: #594E3A;
     
-    }
-    
-    .committees-details-text {
-        flex: 1; /* Allow the text to take up remaining space */
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-    
-    .committes-details-info{
-        margin-bottom: 40px;
-    }
+  }
+  #UNSC .left{
+  background: url("../Assets/MUN_WOSY-removebg-preview.png")
+    no-repeat center center ;
+        background-color: #594E3A;
 
-    .committes-details-info p{
-        font-size: 0.84rem;
-    }
-    .committee-position p{
-        font-size: 0.84rem;
-    }
+}
+  #AIIPM .left{
+  background: url("../Assets/9-removebg-preview.png")
+    no-repeat center / cover;
+        background-color: #594E3A;
+
+}
+  #G20 .left{
+  background: url("../Assets/6-removebg-preview.png")
+    no-repeat center / cover;
+        background-color: #594E3A;
+
+}
+  #UNHRC .left{
+  background: url("../Assets/MUN_WOSY-removebg-preview.png")
+    no-repeat center center / cover;
+        background-color: #594E3A;
+
+}
+  #UNHR .left{
+  background: url("../Assets/11-removebg-preview.png")
+    no-repeat center / cover;
+        background-color: #594E3A;
+
+}
+  #UNICEF .left{
+  background: url("../Assets/5-removebg-preview.png")
+    no-repeat center / cover;
+        background-color: #594E3A;
+
+}
+  #FAO .left{
+  background: url("../Assets/10-removebg-preview.png")
+    no-repeat center / cover;
+    background-color: #594E3A;
+
+}
+#UNGA .left{
+  background: url("../Assets/12-removebg-preview.png")
+    no-repeat center / cover;
+    background-color: #594E3A;
+
+}
+#WTO .left{
+  background: url("../Assets/14-removebg-preview.png")
+    no-repeat center / cover;
+    background-color: #594E3A;
+
+}
+#LS .left{
+  background: url("../Assets/15-removebg-preview.png")
+    no-repeat center / cover;
+    background-color: #594E3A;
+
+}
+#UNW .left{
+  background: url("../Assets/16-removebg-preview.png")
+    no-repeat center / cover;
+    background-color: #594E3A;
+}
+#UNODC .left{
+  background: url("../Assets/17-removebg-preview.png")
+    no-repeat center / cover;
+    background-color: #594E3A;
+}
+#YP .left{
+  background: url("../Assets/youth_parliment.png")
+    no-repeat center / cover;
+    background-color: #594E3A;
+}
+.left {
+  width: 80%;
+  height: 800px;
+}
+/* #hero {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  background-color: #000;
+  padding-top: 10vh;
+} */
+
+.sec-heading {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  top: 0;
+  letter-spacing: 1px;
+  left: 0;
+  font-weight: 500;
+  padding: 20px 0;
+  background-image: linear-gradient(90deg, #5fc9fa, #9752eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
 }
 
-@media(max-width:800px){
-    .committes-heading {
-        font-size: 3em;
-        font-weight: 800;
-        letter-spacing: 0.8rem;
-    }
-    .committees-details-img img {
-        /* width: 22vw; */
-         padding-right: 3rem;
-    }
-    .committees-details-img2 img {
-        padding-left: 3rem;
-    
-    }
-    
-    .committees-details-text {
-        flex: 1; /* Allow the text to take up remaining space */
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-    
-    .committes-details-info{
-        /* margin-bottom: 40px; */
-    }
+/* .btn {
+  display: block;
+  padding: 16px;
+  background: #3d0b79;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  transition: all 0.4s;
+  margin: auto;
+  border: none;
+  position: relative;
+  cursor: pointer;
 
-    .committes-details-info h1{
-        font-size: 1.3rem;
-        padding-bottom: 1rem;
-    }
+} */
 
-    .committes-details-info p{
-        font-size: 1rem;
-    }
-    .committee-position p{
-        font-size: 0.84rem;
-    }
+
+
+.right2 {
+  width: 50%;
+  min-height: 400px;
+   background: #121212;
+  background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 30px;
+  color: white;
+  margin-left: -120px;
+  z-index: 1;
+}
+.right2 h1 {
+  font-size: 1.3rem;
+}
+.right2 p {
+  margin: 20px 0;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-@media(max-width:460px){
-    .committes-heading {
-        font-size: 1.8em;
-        font-weight: 800;
-        letter-spacing: 0.6rem;
-        text-align: center;
-    }
-
-    .school, .university{
-        font-size: 1.3rem;
-    }
-    .committees-details-img img {
-        width: 14rem;
-        height: auto;
-        margin-left: 3.8rem;
-         /* padding-right: 2rem; */
-    }
-    .committees-details-img2 img {
-        /* padding-left: 2rem; */
-        width: 14rem;
-        height: auto;
-        margin-right: 2.9rem;
-    
-    }
-    
-    .committees-details-text {
-        flex: 1; /* Allow the text to take up remaining space */
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-        text-align: center;
-    }
-    
-    .committes-details-info{
-        /* margin-bottom: 40px; */
-    }
-
-    .committees-details{
-        width: 75vw;
-
-        margin-top: 3rem;
-        flex-direction: column;
-    }
-    .committees-details-r{
-        width: 75vw;
-        margin-top: 16rem !important;
-        /* padding-top: 2rem; */
-        flex-direction: column-reverse;
-    }
-    .committes-details-info h1{
-        font-size: 0.9rem;
-        padding-bottom: 1rem;
-    }
-
-    .committes-details-info p{
-        font-size: 0.6rem;
-    }
-    .committee-position p{
-        font-size: 0.56rem;
-    }
-    header{
-        padding: 0.5rem 1rem;
-    }
-    #register{
-        padding-top: 10px;
-        padding-right: 30px;
-    }
-    #seperation{
-        margin-top: 40px;
-        height: 4px !important;
-    }
+.btn:hover {
+  padding:  14px 20px;
+}
+.imgBox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), #000);
 }
 
-@media (max-width:810px){
-    .committees-details-r{
-        width: 75vw;
-        margin-top: 6rem;
-        /* padding-top: 2rem; */
-        flex-direction: column-reverse;
-    }
+.imgBox h1 {
+  position: absolute;
+  bottom: 43px;
+  left: -5px;
+  font-size: 1.8rem;
+  color: white;
+  z-index: 1;
+  padding: 35px;
+  text-align: left;
 }
 
+.bg {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Responsive */
+@media only screen and (max-width:400px){
+  .navvbar{
+    display: none;
+  }
+  .sec-heading{
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 1008px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .section{
+    margin: 10vh 0;
+  }
+  .sec-heading{
+    font-size: 3rem;
+  }
+  .left {
+    width: 100%;
+    height: 600px;
+  }
+  .right2 {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
+  }
+  .left h1{
+    bottom: 98px;
+  }
+}
