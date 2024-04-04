@@ -267,6 +267,12 @@ header{
     no-repeat center / cover;
     background-color: #594E3A;
 }
+#IP .left{
+  background: url("../Assets/Screenshot_2024-04-04_at_5.48.23â_¯PM-transformed.png")
+    no-repeat center / cover;
+    background-color: #594E3A;
+
+}
 .left {
   width: 80%;
   height: 800px;

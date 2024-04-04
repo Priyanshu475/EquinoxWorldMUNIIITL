@@ -674,6 +674,12 @@ video {
     height: 800px;
 }
 
+@media(max-width:450px ){
+    marquee{
+        font-size: small !important;
+    }
+}
+
 /* Media Queries of the Invitation section */
 
 @media(max-width:1630px ){
