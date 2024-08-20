@@ -628,7 +628,7 @@ video {
 
 .background-image-of-sg-message {
     position: relative;
-    background-image: url('./Assets/logo-opacity-30.png');
+    background-image: url('../Assets/logo-opacity-30.png');
     background-color: rgba(0, 0, 0, 0.1);
     background-blend-mode: multiply;
     background-repeat: no-repeat;

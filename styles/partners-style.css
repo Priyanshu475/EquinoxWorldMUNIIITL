@@ -203,7 +203,7 @@ header{
   }
   
   .partner-image {
-    max-width: 45%;
+    max-width: 55%;
     height: auto;
   }
   
@@ -215,4 +215,51 @@ header{
     .partner-image {
       max-width: 90%;
     }
+  }
+  .partner-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  #comming-soon {
+    font-size: 34px;
+    font-weight: bold;
+    color:f4d394;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
+  }
+
+  #comming-soon::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #f0a500;
+    transition: width 0.3s ease;
+  }
+
+  .partner-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .partner-image {
+    width: 350px;
+    height: auto;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .partner-image:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+
+  .partner-image:nth-child(even):hover {
+    transform: scale(1.1) rotate(-5deg);
   }
