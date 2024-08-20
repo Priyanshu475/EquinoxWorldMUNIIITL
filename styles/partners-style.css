@@ -190,7 +190,8 @@ header{
         font-size: 1.5rem; 
     }
     #register{
-        padding-right: 30px;
+        padding-right: 3rem;
+        padding-top: 0.6rem;    
     }
 }
 .partner-images {
@@ -225,6 +226,7 @@ header{
     font-size: 34px;
     font-weight: bold;
     color:f4d394;
+    margin-top: 10px;
     margin-bottom: 20px;
     display: inline-block;
     position: relative;

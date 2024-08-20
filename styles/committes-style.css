@@ -53,14 +53,14 @@ header{
 }
 
 .mun__navbar-links a{
-    text-decoration: none;
-    color: #fff;
-    font-family: Montserrat;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1rem;
-    letter-spacing: 0.2rem;
-    text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 .mun__navbar-links a:hover{
     color: #F4D394;
@@ -158,6 +158,11 @@ header{
     font-weight: 800;
     letter-spacing: 15px;
     color: white;
+}
+
+#register{
+  padding-right: 3rem;
+  padding-top: 0.6rem;    
 }
 
 @media (max-width:600px){
@@ -383,6 +388,10 @@ header{
   .sec-heading{
     font-size: 3rem;
   }
+  #register{
+    padding-right: 3rem;
+    padding-top: 0.6rem;    
+}
 }
 @media only screen and (max-width: 1008px) {
   .main {

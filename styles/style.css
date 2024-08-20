@@ -413,7 +413,8 @@ header{
 }
 @media (max-width:560px) {
     #register{
-        padding-right: 4rem;
+        padding-right: 3rem;
+        padding-top: 0.6rem;
     }
     .mun__navbar-logo img{
         width: 5.5rem;
@@ -460,8 +461,8 @@ header{
         padding: 1rem 1rem;;
     }
     .mun__navbar #register{
-        font-size: 0.8rem;
-        padding-left: 1rem;
+        padding-right: 3rem;
+        padding-top: 0.6rem;
     }
     .mun__navbar-logo img{
         width: 4.8rem;

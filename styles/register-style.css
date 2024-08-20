@@ -94,7 +94,6 @@ header{
 
 .mun__navbar-dropdown.open{
     height: 17vh;
-    z-index: 100;
 }
 
 .mun__navbar-dropdown li{
@@ -237,8 +236,8 @@ header{
         max-width: 85% !important;
     }
     #register{
-        padding-right: 40px;
-        padding-top: 10px;
+        padding-right: 3rem;
+        padding-top: 0.6rem;
     }
     .mun__navbar-logo img{
         width: 5rem;
