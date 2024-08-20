@@ -28,7 +28,6 @@ body {
 header{
     position: relative;
     padding: 1rem 2rem;
-    z-index: 999;
 }
 
 .mun__navbar{
@@ -100,7 +99,8 @@ header{
 }
 
 .mun__navbar-dropdown.open{
-    height: 17vh;
+  height: 17vh;
+  z-index: 999;
 }
 
 .mun__navbar-dropdown li{
@@ -160,10 +160,6 @@ header{
     color: white;
 }
 
-#register{
-  padding-right: 3rem;
-  padding-top: 0.6rem;    
-}
 
 @media (max-width:600px){
   .committes-heading{
@@ -388,10 +384,6 @@ header{
   .sec-heading{
     font-size: 3rem;
   }
-  #register{
-    padding-right: 3rem;
-    padding-top: 0.6rem;    
-}
 }
 @media only screen and (max-width: 1008px) {
   .main {

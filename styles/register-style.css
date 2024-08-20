@@ -94,6 +94,7 @@ header{
 
 .mun__navbar-dropdown.open{
     height: 17vh;
+    z-index: 999;
 }
 
 .mun__navbar-dropdown li{
